@@ -30,3 +30,43 @@ p{
 .container{
   padding: 0px 20px 0px 20px;
 }
+
+@media (max-width: 768px) {
+  nav{
+    display: none; /* some apenas no mobile */
+  }
+}
+@media (min-width: 760px) {
+  .ft-cam{
+        max-width: 277px; 
+    }
+    .frame{
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      margin-right: 0;
+    }
+    .art-main{
+      display: flex;
+       align-items: flex-start;
+       justify-content: start;
+       width: 40vw;
+       padding: 0px 10px 0px 0px;
+        max-width: 800px; /* opcional */
+    }
+
+    .sec-main{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 0;
+        flex-wrap: nowrap; /* coloca lado a lado */
+        width: 100vw;
+    }
+    .pro-img{
+      width: 400px;
+    }
+    .art-projetos div{
+    width: 400px;
+    }
+}

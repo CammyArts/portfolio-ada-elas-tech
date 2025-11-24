@@ -24,6 +24,7 @@ li {
 
 nav {
     /* border: 1px solid red;  */
+    display: block; /* padrão */
     font-size: 1.125rem;
     flex: 1;
 }
