@@ -1,0 +1,22 @@
+.title{
+    width: 100%;
+    font-family: 'Pirata One', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+}
+.pro-img{
+    width: 320px;
+    border-radius: 8%;
+}
+.art-projetos h2{
+    width: 100%;
+}
+.art-projetos div{
+    width: 320px;
+    margin: 5px 10px 10px 5px;
+}
+.art-projetos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,7 @@
+.ft-camDois{
+    width: 320px;
+    float: left;          /* faz o texto ficar à direita */
+    margin-right: 1rem;   /* espaço entre foto e texto */
+    margin-bottom: 1rem;  /* para não grudar quando quebrar */
+    border-radius: 10px;
+}
