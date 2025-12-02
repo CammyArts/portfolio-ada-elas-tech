@@ -1,0 +1,25 @@
+.icones{
+  width: 3rem;
+  margin: 0rem 3rem 0rem 3rem;
+  cursor: pointer;
+}
+.icones:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.art-contato{
+    display: flex;
+    justify-content: center;
+}
+#contato, footer{
+  color: white;
+}
+.class-contato, footer{
+  background-color: #0d0d0d;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
