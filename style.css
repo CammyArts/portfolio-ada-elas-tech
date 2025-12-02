@@ -37,6 +37,13 @@ p{
   nav{
     display: none; /* some apenas no mobile */
   }
+  .icones{
+    width: 60px;
+  }
+  .art-contato{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 @media (min-width: 768px) {
   .ft-cam{
