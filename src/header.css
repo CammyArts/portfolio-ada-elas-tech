@@ -15,7 +15,7 @@ header{
 }
 ul,
 li {
-  color: rgb(197, 197, 197);
+  color: rgb(129, 129, 129);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -43,7 +43,7 @@ li:hover {
 }
 a{
     text-decoration: none;
-    color: rgb(197,197,197);
+    color: rgb(68, 68, 68);
 
     &:hover{
     color: var(--primary-color);
